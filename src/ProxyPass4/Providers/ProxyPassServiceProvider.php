@@ -14,7 +14,7 @@ class ProxyPassServiceProvider extends ServiceProvider
 	}
 
 	public function boot() {
-        $this->package('vendor/package', 'proxypass');
+        $this->package('csun-metalab/laravel-4-proxypass', 'proxypass');
 
         if(Config::get('proxypass::proxy_active')) {
             // if we already have a URL forced via the .env file, don't attempt
