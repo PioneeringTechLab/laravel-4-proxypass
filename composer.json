@@ -1,0 +1,24 @@
+{
+    "name": "csun-metalab/laravel-4-proxypass",
+    "description": "Composer package for Laravel 4 that resolves the correct absolute URLs when behind a proxy",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Fritz",
+            "email": "mattf@burbankparanormal.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "classmap": [
+            "src/ProxyPass4/"
+        ],
+        "psr-0": {
+            "CSUNMetaLab\\ProxyPass4\\": "src/ProxyPass4/"
+        }
+    }
+}
