@@ -1,6 +1,6 @@
 <?php
 
-namespace CSUNMetaLab\ProxyPass\Providers;
+namespace CSUNMetaLab\ProxyPass4\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

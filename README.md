@@ -47,7 +47,7 @@ Next, add the service provider to your `providers` array in Laravel as follows:
 Finally, run the following Artisan command to publish the configuration:
 
 ```
-php artisan vendor:publish
+php artisan config:publish csun-metalab/laravel-4-proxypass
 ```
 
 ## Environment Variables
